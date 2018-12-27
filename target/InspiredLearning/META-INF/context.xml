@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/venture" auth="Container" type="javax.sql.DataSource"
+		maxActive="25" maxIdle="10" maxWait="10000" removeAbandoned="true"
+		removeAbandonedTimeout="300" defaultAutoCommit="true"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" username="root"
+		password="root" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/venture" />
+</Context>
